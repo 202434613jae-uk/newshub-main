@@ -6,114 +6,82 @@
   <title>NewsHub</title>
   <link rel="stylesheet" href="style.css">
   <style>
-     body {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #fff;
-        color: #333;
-    }
+   /* 전체 스타일 */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+  
+/* 헤더 스타일 */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+  
+header h1 {
+  margin: 0;
+  font-size: 30px;
+  A:link { color: white; text-decoration:none;}
+  A:visited { color: white; text-decoration:none;}
+  A:active { color: white; text-decoration:none;}
+  A:hover {color: yellow;}
+}
 
-    /* 헤더 스타일 */
-    header {
-        background-color: #007bff;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-    }
+.menu li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  font-size: 22;
+  A:link { color: white; text-decoration:none;}
+  A:visited { color: white; text-decoration:none;}
+  A:active { color: white; text-decoration:none;}
+  A:hover { color: yellow;}
+}
 
-    header h1 {
-        margin: 0;
-        font-size: 30px;
-    }
-
-    header a:link,
-    header a:visited,
-    header a:active {
-        color: white;
-        text-decoration: none;
-    }
-
-    header a:hover {
-        color: yellow;
-    }
-
-    .menu li {
-        list-style-type: none;
-        display: inline;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 50;
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .menu a:link,
-    .menu a:visited,
-    .menu a:active {
-        color: white;
-        text-decoration: none;
-    }
-
-    .menu a:hover {
-        color: yellow;
-    }
-
-    /* 메인 스타일 */
-    main {
-        padding: 20px;
-    }
-
-    .content {
-        background-color: #fff;
-        border-radius: 4px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        margin-bottom: 50px; /* 섹션 간의 간격을 50px로 설정 */
-    }
-
-    .content h2 {
-        margin-top: 0;
-        margin-bottom: 10px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .image {
-        float: left;
-        margin-right: 20px;
-    }
-
-    .text {
-        overflow: hidden;
-        font-size: 25px;
-    }
-
-    .content ul {
-        margin-bottom: 30px; /* 목록 간의 간격을 30px로 설정 */
-    }
-
-    .content li {
-        margin-bottom: 30px; /* 각 항목 간의 간격을 10px로 설정 */
-    }
-
-    .content p {
-        margin: 0;
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    /* 푸터 스타일 */
-    footer {
-        background-color: #f8f9fa;
-        padding: 20px;
-        text-align: center;
-    }
-
-    footer p {
-        margin: 0;
-        font-size: 14px;
-    }
+  
+/* 메인 스타일 */
+main {
+  padding: 20px;
+}
+  
+.content {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+  
+.content h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+  
+.content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+/* 푸터 스타일 */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+  
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
 </style>
 </head>
 <body>
